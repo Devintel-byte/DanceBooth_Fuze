@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "fuze",
+  "productName": "FUZE Power Stage",
+  "productNameAccent": "FUZE",
+  "eventName": "FUZE",
+  "tagline": "Dance to power up the stage.",
+  "colors": {
+    "brandOrange": "#9B5CFF",
+    "brandOrangeDark": "#4214A8",
+    "brandGold": "#00D8FF",
+    "brandGoldLight": "#B5F4FF",
+    "surfacePage": "#FFFFFF",
+    "surfaceCard": "#FFFFFF",
+    "surfaceWarm": "#F1EDFF",
+    "textPrimary": "#120B2E",
+    "textSecondary": "#4A4470",
+    "borderSubtle": "#DCD6F2",
+    "stageBackground": "#070812",
+    "stagePanel": "#141633",
+    "textOnDark": "#FFFFFF"
+  },
+  "fonts": {
+    "display": {
+      "family": "Plus Jakarta Sans",
+      "file": "branding/fonts/PlusJakartaSans-Variable-latin.woff2"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans",
+      "file": "branding/fonts/PlusJakartaSans-Variable-latin.woff2"
+    }
+  },
+  "stageTheme": "fuze-stage",
+  "experience": "energy",
+  "energy": {
+    "fullChargeShare": 0.75,
+    "meterLabel": "FUZE energy"
+  },
+  "enabledRoutines": [
+    "unlock-me",
+    "my-bebe",
+    "the-hills",
+    "afro-trap-fusion",
+    "funkorama"
+  ],
+  "enabledCharacters": [
+    "michelle",
+    "elizabeth",
+    "david",
+    "lewis",
+    "remy"
+  ],
+  "defaultDifficulty": "easy",
+  "modes": [
+    "single",
+    "duo"
+  ],
+  "session": {
+    "attractAfterIdleSec": 45,
+    "selectionTimeoutSec": 30,
+    "calibrationTimeoutSec": 180,
+    "calibrationHelpSec": 15,
+    "calibrationAwaySec": 25,
+    "tutorialSec": 6,
+    "countdownSec": 3,
+    "resultsDisplaySec": 15,
+    "trackingLostGraceSec": 1.5,
+    "trackingLostPauseSec": 5,
+    "pausedAbortSec": 30
+  },
+  "results": {
+    "tiers": [
+      {
+        "minScore": 100,
+        "title": "Stage powered",
+        "message": "You brought the FUZE stage to life."
+      },
+      {
+        "minScore": 75,
+        "title": "Almost there",
+        "message": "So close to full power."
+      },
+      {
+        "minScore": 0,
+        "title": "Charging up",
+        "message": "Thanks for dancing with us!"
+      }
+    ]
+  }
+}
